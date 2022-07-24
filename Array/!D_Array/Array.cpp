@@ -63,12 +63,12 @@ int main()
     for(int i=0; i<n/2; i++)
     {
        
-         int temp;
+         /* int temp;
          temp=a[i];
          a[i]=a[n-i-1];
-         a[n-i-1]=temp;
+         a[n-i-1]=temp; */
       
-      //swap(a[i],a[n-i-1]);
+         swap(a[i],a[n-i-1]);
     
     }
     
